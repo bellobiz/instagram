@@ -67,6 +67,11 @@
 	}
 }
 
+@media (max-width: 700px) {
+  span.tagged, span.saved, span.igtv, span.post{
+    display:none
+  }
+}
 
 @media (max-width: 550px) {
 	.card img {
@@ -118,11 +123,5 @@
 @media (max-width: 210px) {
   body {
     display: none;
-  }
-}
-
-@media (max-width: 1200px) {
-  ul.ul {
-    width: 100%;
   }
 }
