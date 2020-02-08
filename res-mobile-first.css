@@ -1,28 +1,128 @@
 @media (max-width: 756px) {
-	header, .nav {
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: start;
-	}
-}
-
-
-@media (max-width: 756px) {
-	.img img {
-	  width: 80px;
-	  height: 80px;
-	  border-radius: 50%;
-	  margin-right: 0
-	}
-}
-
-@media (max-width: 756px) {
 	span.edit-profile {
 	  font-size: 14px;
 	  border: 1px solid #eee;
 	  padding: 5px 9px;
 	  border-radius: 4px;
 	  margin: 5px;
-	  font-weight: 600
+	  font-weight: 600;
+	  display: block;
+	  width: 100%;
+	  text-align: center;
+	  cursor: pointer;
+
 	}
+	.username-profile {
+		margin-top: -70px;
+		margin-left: 100px;
+	}
+	.img img {
+	  width: 80px;
+	  height: 80px;
+	  border-radius: 50%;
+	  margin-right: 0
+	}
+	.nav {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: start;
+	}
+	.profile-details {
+		margin-top: 50px;
+		width: 100%;
+	}
+	.username-profile {
+		margin-left: -60%;
+	}
+	.img img {
+		margin-right: 40px;
+		margin-left: -100%
+	}
+	.container-status {
+		margin-left: -40px;
+	}
+	.profile {
+		margin-left: -58%;
+	}
+}
+
+@media (max-width: 765px) {
+	.posts-followers {
+		display: none
+	}
+}
+
+@media (max-width: 777px) and (min-width: 757px) {
+	.show.fa.fa-gear {
+		display: none;
+	}
+  .fade.fa.fa-gear {
+  	display: none;
+  }
+}
+
+@media (max-width: 620px) {
+	.header {
+		margin-left: 40%;
+	}
+}
+
+
+@media (max-width: 550px) {
+	.card img {
+		display: block;
+		width: 90%;
+		margin: auto;
+		padding-bottom: 10px
+	}
+	.show.fa.fa-gear, .fade.fa.fa-gear {
+		display: none
+	}
+	input[type="text"] {
+		display: none;
+	}
+}
+
+@media (max-width: 550px) and (min-width: 510px) {
+	i.fab.fa-instagram{
+		display: none;
+	}
+}
+
+@media (max-width: 756px) {
+	.show.fa.fa-gear {
+		display: none
+	}
+	.posts-followers {
+		display: none;
+	}
+}
+
+@media (min-width: 756.9999px) {
+	.fade.fa.fa-gear {
+		display: none
+	}
+}
+
+@media (max-width: 800px) {
+	footer {
+		/*display: block;
+		width: 100%;
+		text-align: center;*/
+		max-width: 100%;
+		text-align: left;
+
+	}
+}
+
+@media (max-width: 210px) {
+  body {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  ul.ul {
+    width: 100%;
+  }
 }
